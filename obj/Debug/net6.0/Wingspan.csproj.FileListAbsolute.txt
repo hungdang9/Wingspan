@@ -1,0 +1,5 @@
+D:\Code\Wingspan\obj\Debug\net6.0\Wingspan.csproj.AssemblyReference.cache
+D:\Code\Wingspan\obj\Debug\net6.0\Wingspan.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\Wingspan\obj\Debug\net6.0\Wingspan.AssemblyInfoInputs.cache
+D:\Code\Wingspan\obj\Debug\net6.0\Wingspan.AssemblyInfo.cs
+D:\Code\Wingspan\obj\Debug\net6.0\Wingspan.csproj.CoreCompileInputs.cache
