@@ -12,6 +12,10 @@ namespace Wingspan
         Forest,
         Grassland,
         Wetland,
+        FnG,
+        GnW,
+        FnW,
+        FnGnW,
     }
 
     enum PowerEnum
@@ -23,14 +27,35 @@ namespace Wingspan
         GameEnd,
         None
     }
+
+    enum NestEnum
+    {
+        Platform,
+        Ground,
+        Cavity,
+        Bowl,
+    }
+
+    enum FoodEnum
+    { 
+        Invertebrate,
+        Seed,
+        Fruit,
+        Rodent,
+        Fish,
+    }
     internal class Card
     {
 
         private HabitatEnum _habitat;
+        private PowerEnum _power;
+        private NestEnum _nest;
 
-        public Card(HabitatEnum habitat)
+        public Card(HabitatEnum habitat, PowerEnum power, NestEnum nest)
         {
             this._habitat = habitat;
+            this._power = power;
+            this._nest = nest;
         }
 
         public HabitatEnum GetHabitat()
@@ -38,23 +63,12 @@ namespace Wingspan
             return this._habitat;
         }
 
-        private PowerEnum _power;
-
-        public Card(PowerEnum power)
-        {
-            this._power = power;
-        }
-
         public PowerEnum GetPower()
         {
             return this._power;
         }
 
-        public Card(HabitatEnum habitat, PowerEnum power)
-        {
-            this._habitat = habitat;
-            this._power = power;
-        }
+      
     }
     internal class Program
     {
