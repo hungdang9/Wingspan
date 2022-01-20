@@ -5,6 +5,11 @@
       "ProjectGuid": "9f6bb0b5-ed1b-4bb7-bab6-2a97aaf0f632",
       "DisplayName": "Wingspan",
       "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
     }
   },
   "NextColorIndex": 1
